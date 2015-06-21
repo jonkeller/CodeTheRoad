@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-4e07e4d265549f12b71534e7545d893dfe6ab4d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-a3593bf199bafcb963cdd4f27893519bbbf36f3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-21c305e1dd4279c3afa1a4063e84d67f6f9e93cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-163ddda3fab7c4b595f30ab5d2b9e2c35f916c20.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-0a9fec84b2baa05e5b5de6c654d5e441955d5176.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.3.0\aa504de950abc4b000ef6b6cd127ff355d4c7cb8\firebase-client-android-2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="aa504de950abc4b000ef6b6cd127ff355d4c7cb8">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.3.0-65700633d572b645450d238d282c69d50ea246a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-ae49960d4305d7c9096696a128c1da5e3fe8858b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-f78334ccd48a8fb7942a1a27bd2e379547d763fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-3b807d00d8232ccfa4fb09f13aa74ef7355681e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-98bdb29b1d5cf57cd220b4c56f45f5f5fe672c25.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-c7def20e2ccc767540635663ff1c37957064571e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2-f7ff21cc5b2bf6e142ebf2b343f9846dc18a43fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-21571143a8ad901426a7da8252ea4051160840de.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-9345dec27a6175c66800118b9f4e2193c6c7bcfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-0b6aa942bcaa0cf38164c46f0a447407634ae91b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-8cdc282995215bc03f8343a8862060018d0fe5bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-ea8c55965a122b184e10d6ce2f51ac1c84d91d69.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.3.0\6e4e83a746e32674d29d37962ec64e01e5be9a10\firebase-client-jvm-2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="6e4e83a746e32674d29d37962ec64e01e5be9a10">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.3.0-4939496fe9bfd64303d0a28596eebe3a5a72d7aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-fc018af66210b85390df66ee18950313656d93be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-4b0da8025fada83860efbe3fc26e02ab7f6317ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-22b5d6e5ba5b495154bd8fe2f859729b3143a348.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2-f07a0daff7ed9f2a44e8207f5a7b3968dbe50689.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-5699c204e54876843ce3b1e0c9ae0713e554d926.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-d45761b70f2c29f9b479b77e0382bb98c20d1094.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-92bf44d16edc7d9c1abdf3dcac4c1c0ecd1cecee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2-97c3449fdfd2fe8025c89e489b5fd63e92c6be74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-84ef998030081540d78b6f10c5931380caaf98b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\tubesock-0.0.11-4ea44590443f6e8c787780b8931bd7b82d9e59c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-552a650aa358a4cab7b582854090d478d7b5cf06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-95d3c678fbe3ad2f310c73e039a2e6d12e8aa69a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-f279af3fdbf9ba6c5ba75fe348ef4cf57af8e2ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Jon\Development\CodeTheRoad\app\build\intermediates\pre-dexed\debug\classes-7576a19680f6e188f20c10a9624040edd7d5537f.jar" />
+    </item>
+
+</items>

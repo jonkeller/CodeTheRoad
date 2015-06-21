@@ -1,0 +1,38 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:useDefaultMargins="true"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_start"
+            android:layout_gravity="right"
+            />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_stop"
+            android:layout_gravity="left"
+            />
+
+    </LinearLayout>
+
+</fragment>
