@@ -21,6 +21,8 @@
             android:layout_height="wrap_content"
             android:text="@string/button_start"
             android:layout_gravity="right"
+            android:background="@color/blue"
+            android:onClick="startLogging"
             />
 
         <Button
@@ -31,6 +33,8 @@
             android:layout_height="wrap_content"
             android:text="@string/button_stop"
             android:layout_gravity="left"
+            android:background="@color/blue"
+            android:onClick="stopLogging"
             />
 
     </LinearLayout>
