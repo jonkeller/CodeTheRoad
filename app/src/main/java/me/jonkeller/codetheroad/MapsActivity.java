@@ -1,14 +1,22 @@
 package me.jonkeller.codetheroad;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.IntentSender;
 import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.text.DateFormat;
@@ -19,11 +27,15 @@ import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.Query;
 import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -40,11 +52,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
 
-public class MapsActivity extends FragmentActivity
+public class MapsActivity extends ActionBarActivity
         implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
+    private static final String TAG = "CodeTheRoad";
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private GoogleApiClient mGoogleApiClient;
     Location mLastLocation;
@@ -61,6 +74,7 @@ public class MapsActivity extends FragmentActivity
     private static final String DIALOG_ERROR = "dialog_error";
     List<Marker> markerList = new ArrayList<>();
     String startLoggingTime;
+    int REQUEST_PLACE_PICKER = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +112,89 @@ public class MapsActivity extends FragmentActivity
     protected void onResume() {
         super.onResume();
         setUpMapIfNeeded();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.activity_maps_actions, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            default:
+                return super.onOptionsItemSelected(item);
+            case R.id.action_search:
+                try {
+                    PlacePicker.IntentBuilder intentBuilder = new PlacePicker.IntentBuilder();
+                    Intent intent = intentBuilder.build(this);
+
+                    // Start the Intent by requesting a result, identified by a request code.
+                    startActivityForResult(intent, REQUEST_PLACE_PICKER);
+                } catch (GooglePlayServicesRepairableException e) {
+                    GooglePlayServicesUtil.getErrorDialog(e.getConnectionStatusCode(), this, 0);
+                } catch (GooglePlayServicesNotAvailableException e) {
+                    Toast.makeText(this, "Google Play Services is not available.", Toast.LENGTH_LONG).show();
+                }
+                return true;
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == REQUEST_PLACE_PICKER) {
+            // This result is from the PlacePicker dialog.
+
+            if (resultCode == Activity.RESULT_OK) {
+       /* User has picked a place, extract data.
+          Data is extracted from the returned intent by retrieving a Place
+          object from the PlacePicker.
+         */
+                final Place place = PlacePicker.getPlace(data, this);
+
+         /* A Place object contains details about that place, such as its name,
+         address and phone number. Extract the name, address, phone number,
+         place ID and place types.
+          */
+                final CharSequence name = place.getName();
+                final CharSequence address = place.getAddress();
+                final CharSequence phone = place.getPhoneNumber();
+                final String placeId = place.getId();
+                String attribution = PlacePicker.getAttributions(data);
+                if(attribution == null){
+                    attribution = "";
+                }
+
+                // Update data on map
+                mMap.addMarker(new MarkerOptions()
+                                .position(place.getLatLng())
+                                .title(name.toString())
+                );
+
+                Map mLocation = new HashMap();
+                mLocation.put("timestamp", mLastUpdateTime);
+
+                Map  mCoordinate = new HashMap();
+                mCoordinate.put("latitude", place.getLatLng().latitude);
+                mCoordinate.put("longitude", place.getLatLng().longitude);
+                mLocation.put("location", mCoordinate);
+
+                mLocation.put("place_id", place.getId());
+                myFirebaseRef.push().setValue(mLocation);
+                                // Print data to debug log
+                Log.d(TAG, "Place selected: " + placeId + " (" + name.toString() + ")");
+
+
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+        }
+        // END_INCLUDE(activity_result)
     }
 
     /**

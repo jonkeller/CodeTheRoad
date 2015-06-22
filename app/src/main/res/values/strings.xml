@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">CodeTheRoad</string>
+    <string name="app_title">Code The Road</string>
     <string name="title_activity_maps">Map</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
     <string name="button_start">Start</string>
     <string name="button_stop">Stop</string>
 </resources>
